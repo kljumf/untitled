@@ -5,6 +5,7 @@ public class KnjigaZadatak_07_02 {
         int [] niz = PomocnaKLasa.unesiNiz(10);
         for (int i = niz.length - 1; i >= 0; i--){
             System.out.println(niz[i]);
+            System.out.println(niz[i] + " " + niz[i]);
         }
     }
 }
